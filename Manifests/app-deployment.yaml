@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: schoolmanagmentsystem-deployment
+  namespace: schoolmanagmentsystem-namespace
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: schoolmanagmentsystem
+  template:
+    metadata:
+      labels:
+        app: schoolmanagmentsystem
+    spec:
+      containers:
+      - name: schoolmanagmentsystem
+        image: dimitrov10/kiii_sms:latest
+        envFrom:
+        - configMapRef:
+            name: app-config
+        ports:
+        - containerPort: 80
