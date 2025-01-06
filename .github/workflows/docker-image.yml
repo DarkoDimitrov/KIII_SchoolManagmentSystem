@@ -26,6 +26,6 @@ jobs:
    
     - name: Build and push Docker image
       run: |
-        docker build -t darkodimitrov/SchoolManagmentSystem:latest .
-        docker push darkodimitrov/SchoolManagmentSystem:latest
+        docker build -t darkodimitrov/kii_project:latest .
+        docker push darkodimitrov/kii_project:latest
 
