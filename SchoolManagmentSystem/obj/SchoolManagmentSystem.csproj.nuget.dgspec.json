@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DarkoDimitrov\\OneDrive - Damilah Technology Ltd\\Documents\\DevOps\\KII_Project_SchoolManagementSystemt\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj": {}
+    "C:\\Users\\User\\Desktop\\KII_Project\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DarkoDimitrov\\OneDrive - Damilah Technology Ltd\\Documents\\DevOps\\KII_Project_SchoolManagementSystemt\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj": {
+    "C:\\Users\\User\\Desktop\\KII_Project\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DarkoDimitrov\\OneDrive - Damilah Technology Ltd\\Documents\\DevOps\\KII_Project_SchoolManagementSystemt\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\KII_Project\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
         "projectName": "SchoolManagmentSystem",
-        "projectPath": "C:\\Users\\DarkoDimitrov\\OneDrive - Damilah Technology Ltd\\Documents\\DevOps\\KII_Project_SchoolManagementSystemt\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
-        "packagesPath": "C:\\Users\\DarkoDimitrov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DarkoDimitrov\\OneDrive - Damilah Technology Ltd\\Documents\\DevOps\\KII_Project_SchoolManagementSystemt\\SchoolManagmentSystem\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\KII_Project\\SchoolManagmentSystem\\SchoolManagmentSystem.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\KII_Project\\SchoolManagmentSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DarkoDimitrov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +43,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

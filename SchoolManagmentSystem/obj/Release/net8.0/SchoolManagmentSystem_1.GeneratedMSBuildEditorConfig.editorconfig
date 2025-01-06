@@ -9,57 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SchoolManagmentSystem_1
 build_property.RootNamespace = SchoolManagmentSystem_1
-build_property.ProjectDir = C:\Users\DarkoDimitrov\OneDrive - Damilah Technology Ltd\Documents\DevOps\KII_Project_SchoolManagementSystemt\SchoolManagmentSystem\
+build_property.ProjectDir = C:\Users\User\Desktop\KII_Project\SchoolManagmentSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DarkoDimitrov\OneDrive - Damilah Technology Ltd\Documents\DevOps\KII_Project_SchoolManagementSystemt\SchoolManagmentSystem
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\KII_Project\SchoolManagmentSystem
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Home/Privacy.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Students/ListStudents.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Students/ListStudents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcTGlzdFN0dWRlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Subjects/Details.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Subjects/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Subjects/ListSubjects.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Subjects/ListSubjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcTGlzdFN1YmplY3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Teacher/ListTeachers.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Teacher/ListTeachers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxMaXN0VGVhY2hlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DarkoDimitrov/OneDrive - Damilah Technology Ltd/Documents/DevOps/KII_Project_SchoolManagementSystemt/SchoolManagmentSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/KII_Project/SchoolManagmentSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-was87vf6fu
