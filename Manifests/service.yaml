@@ -1,12 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: schoolmanagmentsystem-db
+  name: schoolmanagmentsystem-service
   namespace: schoolmanagmentsystem-namespace
 spec:
   selector:
-    app: schoolmanagmentsystem-db
+    app: schoolmanagmentsystem
   ports:
     - protocol: TCP
-      port: 1433
-      targetPort: 1433
+      port: 80        # Port the service will listen on inside the cluster
+      targetPort: 8080   # Port your application is running on inside the container
+      nodePort: 30001  # NodePort - this will be the external port (if using NodePort)
+  type: NodePort      # Change to LoadBalancer if you're using a cloud service with a load balancer

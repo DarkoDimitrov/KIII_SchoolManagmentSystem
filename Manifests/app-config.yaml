@@ -4,5 +4,7 @@ metadata:
   name: app-config
   namespace: schoolmanagmentsystem-namespace
 data:
-  APP_SETTING: "value"
-  ConnectionStrings__SchoolManagmentSystem: "Server=schoolmanagmentsystem-db;Database=SchoolManagmentSystem;User Id=sa;Password=Vezba123!;TrustServerCertificate=True"
+  APP_ENV: production  # Change to 'production' or 'development' as needed
+  APP_DEBUG: "false"   # Set to 'false' for production, 'true' for development
+  DB_SERVER: "sql-server-service"  # Service name in Kubernetes for the database
+  DB_NAME: "SchoolManagmentSystem"  # Your actual database name in SQL Server

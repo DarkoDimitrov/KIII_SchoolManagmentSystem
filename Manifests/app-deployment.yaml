@@ -4,7 +4,7 @@ metadata:
   name: schoolmanagmentsystem-deployment
   namespace: schoolmanagmentsystem-namespace
 spec:
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       app: schoolmanagmentsystem
@@ -15,9 +15,11 @@ spec:
     spec:
       containers:
       - name: schoolmanagmentsystem
-        image: dimitrov10/kiii_sms:latest
+        image: darkodimitrov/kii_project:latest
         envFrom:
         - configMapRef:
             name: app-config
+        - secretRef:
+            name: app-secret
         ports:
         - containerPort: 80
