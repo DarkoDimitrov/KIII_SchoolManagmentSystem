@@ -18,7 +18,11 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddScoped<ILiteratureRepository, LiteratureRepository>();
 builder.Services.AddScoped<ILiteratureService, LiteratureService>();
+builder.Configuration.AddEnvironmentVariables();
 
+// Access the environment variables from ConfigMap (loaded into the configuration)
+var appEnv = builder.Configuration["APP_ENV"];  // "production"
+var appDebug = builder.Configuration["APP_DEBUG"];  // "false"
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
            options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolManagmentSystem")));
 
