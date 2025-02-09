@@ -5,7 +5,7 @@ metadata:
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
     nginx.ingress.kubernetes.io/rewrite-target: /
-  namespace: student-app-namespace
+  namespace: schoolmanagmentsystem-ns
 spec:
   ingressClassName: nginx-example
   rules:

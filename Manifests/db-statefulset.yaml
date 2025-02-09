@@ -1,25 +1,8 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: database
-  namespace: student-app-namespace
-spec:
-  type: ClusterIP
-  selector:
-    app: student-db
-  ports:
-  - protocol: TCP
-    port: 84
-    targetPort: 1433
-    name: student-db
-  type: ClusterIP
-  clusterIP: None
----
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: db-statefulset
-  namespace: student-app-namespace
+  namespace: schoolmanagmentsystem-ns
 spec:
   replicas: 1
   selector:

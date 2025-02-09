@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: student-app
-  namespace: student-app-namespace
+  namespace: schoolmanagmentsystem-ns
   labels:
     app: mvc-app
 spec:
@@ -33,28 +33,3 @@ spec:
               secretKeyRef:
                 name: db-connstr-secret
                 key: CONN_STR
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: student-app-service
-  namespace: student-app-namespace
-  labels:
-    app: mvc-service
-spec:
-  type: ClusterIP
-  selector:
-    app: mvc-app
-  ports:
-    - protocol: TCP
-      port: 84
-      targetPort: 8001
----
-apiVersion: v1
-kind: Secret
-metadata:
-  name: db-connstr-secret
-  namespace: student-app-namespace
-type: Opaque
-stringData:
-  CONN_STR: Data Source=Database;Initial Catalog=Database;User ID=sa;Password=Vezba123!1;Trust Server Certificate=True
